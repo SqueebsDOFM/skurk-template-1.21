@@ -13,10 +13,10 @@ import net.squeebsdofm.skurk.Skurk;
 public class ModItems {
     public static final Item SHOGGOTH_TOOTH = registerItem("shoggoth_tooth", new Item(new Item.Settings())) ;
     public static final Item EMPOWERED_SHOGGOTH_TOOTH = registerItem("empowered_shoggoth_tooth", new Item(new Item.Settings())) ;
-    public static final Item ELDRITCH_RUNE4 = registerItem("eldritch_rune4", new Item(new Item.Settings())) ;
-    public static final Item ELDRITCH_RUNE3 = registerItem("eldritch_rune3", new Item(new Item.Settings())) ;
-    public static final Item ELDRITCH_RUNE2 = registerItem("eldritch_rune2", new Item(new Item.Settings())) ;
-    public static final Item ELDRITCH_RUNE1 = registerItem("eldritch_rune1", new Item(new Item.Settings())) ;
+    public static final Item ELDRITCH_RUNE4 = registerItem("eldritch_rune4", new Item(new Item.Settings().recipeRemainder(ModItems.ELDRITCH_RUNE3))) ;
+    public static final Item ELDRITCH_RUNE3 = registerItem("eldritch_rune3", new Item(new Item.Settings().recipeRemainder(ModItems.ELDRITCH_RUNE2))) ;
+    public static final Item ELDRITCH_RUNE2 = registerItem("eldritch_rune2", new Item(new Item.Settings().recipeRemainder(ModItems.ELDRITCH_RUNE1))) ;
+    public static final Item ELDRITCH_RUNE1 = registerItem("eldritch_rune1", new Item(new Item.Settings().recipeRemainder(ModItems.ELDRITCH_RUNE0))) ;
     public static final Item ELDRITCH_RUNE0 = registerItem("eldritch_rune0", new Item(new Item.Settings())) ;
 
 
