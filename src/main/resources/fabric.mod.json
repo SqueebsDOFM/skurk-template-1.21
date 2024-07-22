@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "skurk",
+	"version": "${version}",
+	"name": "Skurk",
+	"description": "This is very cool mod. im in ur walls :)",
+	"authors": [
+		"Squeebs!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/skurk/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.squeebsdofm.skurk.Skurk"
+		],
+		"client": [
+			"net.squeebsdofm.skurk.SkurkClient"
+		],
+		"fabric-datagen": [
+			"net.squeebsdofm.skurk.SkurkDataGenerator"
+		]
+	},
+	"mixins": [
+		"skurk.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
