@@ -13,13 +13,21 @@ import net.squeebsdofm.skurk.Skurk;
 public class ModItems {
     public static final Item SHOGGOTH_TOOTH = registerItem("shoggoth_tooth", new Item(new Item.Settings())) ;
     public static final Item EMPOWERED_SHOGGOTH_TOOTH = registerItem("empowered_shoggoth_tooth", new Item(new Item.Settings())) ;
-    public static final Item ELDRITCH_RUNE = registerItem("eldritch_rune", new Item(new Item.Settings())) ;
+    public static final Item ELDRITCH_RUNE4 = registerItem("eldritch_rune4", new Item(new Item.Settings())) ;
+    public static final Item ELDRITCH_RUNE3 = registerItem("eldritch_rune3", new Item(new Item.Settings())) ;
+    public static final Item ELDRITCH_RUNE2 = registerItem("eldritch_rune2", new Item(new Item.Settings())) ;
+    public static final Item ELDRITCH_RUNE1 = registerItem("eldritch_rune1", new Item(new Item.Settings())) ;
+    public static final Item ELDRITCH_RUNE0 = registerItem("eldritch_rune0", new Item(new Item.Settings())) ;
 
 
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries) {
         entries.add(SHOGGOTH_TOOTH);
         entries.add(EMPOWERED_SHOGGOTH_TOOTH);
-        entries.add(ELDRITCH_RUNE);
+        entries.add(ELDRITCH_RUNE4);
+        entries.add(ELDRITCH_RUNE3);
+        entries.add(ELDRITCH_RUNE2);
+        entries.add(ELDRITCH_RUNE1);
+        entries.add(ELDRITCH_RUNE0);
     }
 
     private static Item registerItem(String name, Item item) {

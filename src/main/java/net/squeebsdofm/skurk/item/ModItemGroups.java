@@ -16,7 +16,11 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.SHOGGOTH_TOOTH)).entries((displayContext, entries) -> {
                         entries.add(ModItems.SHOGGOTH_TOOTH);
                         entries.add(ModItems.EMPOWERED_SHOGGOTH_TOOTH);
-                        entries.add(ModItems.ELDRITCH_RUNE);
+                        entries.add(ModItems.ELDRITCH_RUNE4);
+                        entries.add(ModItems.ELDRITCH_RUNE3);
+                        entries.add(ModItems.ELDRITCH_RUNE2);
+                        entries.add(ModItems.ELDRITCH_RUNE1);
+                        entries.add(ModItems.ELDRITCH_RUNE0);
                     }).build());
 
     public static void registerItemGroups(){

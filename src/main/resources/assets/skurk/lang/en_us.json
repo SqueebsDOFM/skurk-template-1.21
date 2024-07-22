@@ -1,7 +1,11 @@
 {
   "item.skurk.empowered_shoggoth_tooth": "Empowered Shoggoth Tooth",
   "item.skurk.shoggoth_tooth": "Shoggoth Tooth",
-  "item.skurk.eldritch_rune": "Eldritch Rune",
+  "item.skurk.eldritch_rune4": "Full Eldritch Rune",
+  "item.skurk.eldritch_rune3": "Weakened Eldritch Rune",
+  "item.skurk.eldritch_rune2": "Lesser Eldritch Rune",
+  "item.skurk.eldritch_rune1": "Weak Eldritch Rune",
+  "item.skurk.eldritch_rune0": "Depleted Eldritch Rune",
 
   "itemgroup.shoggoth_tooth": "Shoggoth Skurk Group"
 }
