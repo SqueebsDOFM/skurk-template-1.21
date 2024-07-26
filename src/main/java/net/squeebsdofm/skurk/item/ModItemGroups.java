@@ -21,6 +21,8 @@ public class ModItemGroups {
                         entries.add(ModItems.ELDRITCH_RUNE2);
                         entries.add(ModItems.ELDRITCH_RUNE1);
                         entries.add(ModItems.ELDRITCH_RUNE0);
+                        entries.add(ModItems.SHOGGOTH_BLADE);
+                        entries.add(ModItems.EMBER_CRAG);
                     }).build());
 
     public static void registerItemGroups(){

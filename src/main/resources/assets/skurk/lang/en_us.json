@@ -6,6 +6,10 @@
   "item.skurk.eldritch_rune2": "Lesser Eldritch Rune",
   "item.skurk.eldritch_rune1": "Weak Eldritch Rune",
   "item.skurk.eldritch_rune0": "Depleted Eldritch Rune",
+  "item.skurk.shoggoth_blade": "Shoggoth Blade",
+  "item.skurk.ember_crag": "Ember Crag",
+
+  "effect.skurk.tatereffect": "Tater",
 
   "itemgroup.shoggoth_tooth": "Shoggoth Skurk Group"
 }

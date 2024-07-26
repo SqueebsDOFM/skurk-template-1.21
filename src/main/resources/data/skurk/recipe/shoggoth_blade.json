@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    " 1 ",
+    " 2 "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:empowered_shoggoth_tooth"
+    },
+    "1": {
+      "item": "minecraft:string"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "skurk:shoggoth_blade",
+    "count": 1
+  }
+}
