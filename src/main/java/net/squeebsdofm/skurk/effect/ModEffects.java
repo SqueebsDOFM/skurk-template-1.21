@@ -4,6 +4,7 @@ import net.fabricmc.api.ModInitializer;
 import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.registry.entry.RegistryEntry;
 import net.minecraft.util.Identifier;
 import net.squeebsdofm.skurk.Skurk;
 
@@ -13,16 +14,20 @@ public class ModEffects implements ModInitializer {
 
 
     static {
-        GLIMPSE_OF_CTHUGHA = Registry.register(Registries.STATUS_EFFECT, Identifier.of("skurk","glimpse of cthugha"),new GlimpseOfCthugha());
+        GLIMPSE_OF_CTHUGHA = Registry.register(Registries.STATUS_EFFECT, Identifier.of("skurk","glimpse_of_cthugha"),new GlimpseOfCthugha());
         TATER_EFFECT = Registry.register(Registries.STATUS_EFFECT, Identifier.of("skurk","tatereffect"),new TaterEffect());
 
+
     }
+
+
     @Override
     public void onInitialize() {
 
     }
         public static void registerModEffects(){
             Skurk.LOGGER.info("Registering ModEffects for"+Skurk.MOD_ID);
+
         } ;
 
 

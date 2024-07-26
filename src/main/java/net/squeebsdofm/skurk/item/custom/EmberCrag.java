@@ -10,8 +10,12 @@ import net.minecraft.item.ToolMaterial;
 import net.minecraft.registry.entry.RegistryEntry;
 import net.squeebsdofm.skurk.Skurk;
 import net.squeebsdofm.skurk.effect.GlimpseOfCthugha;
+import net.squeebsdofm.skurk.effect.ModEffects;
 
+import static net.minecraft.registry.RegistryKeys.STATUS_EFFECT;
 import static net.squeebsdofm.skurk.effect.ModEffects.GLIMPSE_OF_CTHUGHA;
+import static net.squeebsdofm.skurk.effect.ModEffects.registerModEffects;
+
 
 public class EmberCrag extends SwordItem {
 
@@ -22,7 +26,7 @@ public class EmberCrag extends SwordItem {
     @Override
     public boolean postHit(ItemStack stack, LivingEntity target, LivingEntity attacker) {
         if (!target.getWorld().isClient()) {
-            target.addStatusEffect(new StatusEffectInstance(Skurk.GLIMPSE_OF_CTHUGHA, 200, 1)); // 200 ticks duration
+            target.addStatusEffect(new StatusEffectInstance((RegistryEntry<StatusEffect>) GLIMPSE_OF_CTHUGHA, 200, 1)); // 200 ticks duration
         }
         return super.postHit(stack, target, attacker);
     }
